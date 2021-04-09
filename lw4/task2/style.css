@@ -1,0 +1,102 @@
+body {
+  font-family: "Work Sans";
+  background-color: #fcc4a2;
+  margin: 0 auto;
+  padding: 0;
+}
+.main {
+  flex-direction: row;
+  justify-content: center;
+  color: #7e8eff;
+  width: 100%;
+  display: flex;
+  
+}
+.td-list {
+  width: 550px;
+  display: flex;
+  margin: 150px 100px;
+  box-shadow: 12px 12px 2px 1px rgba(0,0,0,0.1);
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.header {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #eee;
+}
+.header_btn {
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.header_date {
+  font-weight: bold;
+  padding: 0px 130px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.header_date-month {
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.schedule {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 200px;
+}
+.schelude-list {
+  padding: 0px 20px;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.schelude-list_btn{
+  display: flex;
+  align-items: center;
+}
+.schelude-list_btn-input {
+  transform: scale(2);
+  padding: 10px;
+}
+.schelude-list_btn-text{
+  font-size: 22px;
+  margin-left: 20px;
+}
+.schelude-list_btn-date {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_tasks {
+  font-size: 22px;
+  margin-left: 22px;
+  text-transform: uppercase;
+}
+.footer_add {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #7e8eff;
+  font-weight: 600;
+  margin-right: 20px;
+  font-size: 22px;
+}
+.schelude-list_btn-text-completed {
+  text-decoration: line-through;
+  font-size: 22px;
+  margin-left: 20px;
+  opacity: 0.7;
+}
+  
